@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 800px){
+	#slide{
+		display: none;
+	}
+}
+/*Fim do Menu*/
+
+#slide img{
+	width:90%; 
+	height:60%;
+	margin-top: 1%; 
+	border-radius: 10px;
+	border: solid 10px;
+}
+#slide{
+	width:100%; 
+	height:60%;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 0 0 7px #000000;
+}
+
+.carousel-control-prev{
+	margin-left: 5%;
+	padding-top: 3.5%;
+}
+.carousel-control-next{
+	margin-right: 5%;
+	padding-top: 3.5%;
+}
+
+section{
+	width: 735px;
+	height: 100%;
+	float: left;
+	margin-top: 1%;
+	margin-right: 5px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	border-right: solid 1px #e0e0e0;
+}
+a:link{
+	text-decoration:none; 
+}
+#categoria{
+	float: left;
+	width: 75px;
+	height: 25px;
+	padding-left: 5px;
+	position: absolute;
+	border-radius: 0 0 15px 0;
+	border: solid 1px black;
+	background-color: red;
+	opacity: 0.7;
+}
+
+#categoria:hover{
+	opacity: 1;
+	padding-left: 20px;
+	width: 90px;
+	transition: opacity 0.2s, padding-left 0.2s, width 0.2s;
+}
+
+#post{
+	float: left;
+	width: 350px;
+	height: 200px;
+	margin: 5px;
+	color: #fff;
+	text-align: left;
+/*	background-color: #efefef;*/
+}
+
+#post img{
+	width: 350px;
+	height: 200px;
+	border: solid 1px black;
+	border-radius: 5px;
+}
+
+#card{
+	width: 100%;
+	height: 50%;
+	margin-top: -100px;
+	border-radius: 0px 0px 5px 5px;
+	background-color: black;
+	z-index: 1;
+	opacity: 0.7;
+	transition: margin-top 0.5s, height 0.5s, opacity 0.5s;
+}
+
+#card:hover{
+	height:0;
+	margin-top:0;
+	height:70%;
+	margin-top:-140px;
+	opacity: 0.9;
+}
+#c-txt{
+	margin-left: 10px;
+}
+
+@media screen and (max-width: 800px){
+	section{
+		width: 60%;	
+	}
+}
+
+#fd_br{
+	float: left;
+	width: 60%;
+	margin-left: 15%;
+	background-color: #efefef;
+	box-shadow: 0px 6px 10px #000;
+}

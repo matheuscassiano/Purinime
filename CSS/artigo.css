@@ -1,0 +1,53 @@
+#fd_br{
+	float: left;
+	width: 75%;
+	margin-left: 1%;
+	background-color: #efefef;
+}
+
+#autor{
+	text-align:left;
+}
+
+#data_a{
+	float: right;
+}
+
+#post{
+	float: left;
+	width: 70%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-right: 1px solid;
+}
+
+#post img{
+	width: 75%;
+	font-size: 20px;
+	margin-bottom: 10px;
+	border-radius: 500px;
+}
+
+#post p{
+	/*width: 75.2%;*/
+	width: 750px;
+	text-align: justify;
+}
+
+#social{
+	float: right;
+	width: 20%;
+	margin-top: 5%;
+	margin-right: 8%;
+}
+
+#s-in{
+	margin-left: 5%;
+	text-align: left;
+}
+
+.fb-comments{
+	float: left;
+	margin: 0;
+	margin-left: 10%;
+}

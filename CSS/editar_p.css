@@ -1,0 +1,69 @@
+#fd_br{
+	float: left;
+	width: 100%;
+	height: 100%;
+	margin-top: -5px;
+	background-color: #efefef;
+}
+
+#menu_editor{
+	float: left;
+	width: 400px;
+}
+
+#postagem{
+	float:left;
+	width: 1200px;
+	background-color: #efefef;
+}
+
+#postagem form{
+	width: 100%;
+	height:100%;
+	margin-top: 20px;
+	margin-left: 5%;
+	margin-bottom: 489px;
+}
+
+#postagem label{
+	float:left;
+	margin-top: 20px;
+	size: 50px;
+}
+
+#postagem input{
+	float: right;
+	width: 50%;
+	margin-right:35%;
+	margin-bottom:10px;
+}
+
+#postagem textarea{
+	float: right;
+	width: 600px;
+	height: 800px;
+	margin-top:20px;
+	margin-right:35%;
+	margin-bottom:10px;
+}
+
+#sel1{
+	float: right;
+	width: 50%;
+	margin-right:35%;
+	margin-bottom:10px;
+}
+
+#postagem #B{
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 160px;
+	padding: 10px 20px 10px 20px;
+	color: white;
+}
+
+#space{
+	width: 100%;
+	height: 80px;
+}

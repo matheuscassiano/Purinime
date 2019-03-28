@@ -1,0 +1,85 @@
+#c-txt{
+	margin-left: 10px;
+}
+
+#card_p{
+	width: 100%;
+	height: 50%;
+	margin-top: -85px;
+	border-radius: 0px 0px 5px 5px;
+	background-color: black;
+	z-index: 1;
+	opacity: 0.7;
+	transition: margin-top 0.7s, height 0.7s;
+}
+
+#card_p:hover{
+	height:0;
+	margin-top:0;
+	height:70%;
+	margin-top:-120px;
+}
+
+#post_p{
+	float: left;
+	width: 350px;
+	height: 170px;
+	margin-bottom: 15px;
+	color: #fff;
+	text-align: left;
+/*	background-color: #efefef;*/
+}
+
+#img_p{
+	width: 300px;
+	border: solid 1px black;
+	border-radius: 5px;
+}
+
+
+#social{
+	float: right;
+	width: 375px;
+	height: 100%;
+	margin-top: 1.5%;
+	margin-right: 15px;
+	border-radius: 5px;
+}
+
+#social h6{
+	
+    float: left;
+    padding: 10px 20px;
+    margin: 0 0 10px 0;
+    font-size: 17px;
+    line-height: 1em;
+    color: #FFF;
+    background-color: #E59268;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    border-radius: 4px;
+    z-index: 2;
+}
+
+#social h6::before{
+	content: '';
+    width: 27px;
+    height: 27px;
+    top: 40.1%;
+    right: -22px;
+    border-radius: 4px;
+    position: absolute;
+    background-color: #E59268;
+    transform: rotate(-45deg) translateY(-50%);
+}
+
+#s-in{
+	margin-left: 5%;
+	text-align: left;
+}
+
+#ads{
+	float: left;
+	margin-top: 1px;
+}

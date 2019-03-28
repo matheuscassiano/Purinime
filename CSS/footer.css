@@ -1,0 +1,28 @@
+footer{
+	float: left;
+	width:100%;
+	/* background-image: linear-gradient(#FCDE98, #E59268); */
+	background-color: #FCDE98;
+	color:#FFFFFF;
+	box-shadow:0px 0px 10px black;
+	
+}
+
+footer p{
+	float: left;
+	padding-left: 7%;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+footer img{
+	float: right;
+	margin-right: 7px;
+	border-radius: 100px;
+	transition: border 0.2s;
+	background-color: white;
+}
+
+footer img:hover{
+	border: solid 4px;
+	transition: border 0.2s;
+}
