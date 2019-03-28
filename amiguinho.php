@@ -1,0 +1,1 @@
+<?php $u->conectar("epiz_23522042_purinime", "sql107.epizy.com", "epiz_23522042", "8kI1TAjfwSo6xt"); ?>
